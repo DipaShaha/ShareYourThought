@@ -1,0 +1,242 @@
+
+
+.container {
+
+}
+
+.carousel-indicators .active {
+    background-color: #2980b9;
+}
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 460px
+}
+
+.carousel-control {
+    width: 0;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	background-image: none;
+	background-repeat: no-repeat;
+	text-shadow: none;
+}
+
+.carousel-control.left span {
+	padding: 15px;
+}
+
+.carousel-control.right span {
+	padding: 15px;
+}
+
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right, 
+.carousel-control .icon-prev, 
+.carousel-control .icon-next {
+	position: absolute;
+	top: 45%;
+	z-index: 5;
+	display: inline-block;
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {
+	left: 0;
+}
+
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next {
+	right: 0;
+}
+
+.carousel-control.left span,
+.carousel-control.right span {
+	background-color: #000;
+}
+
+.carousel-control.left span:hover,
+.carousel-control.right span:hover {
+	opacity: .7;
+	filter: alpha(opacity=70);
+}
+
+/* Carousel Header Styles */
+header{
+    margin-bottom: -10px;
+}
+.header-text {
+    position: absolute;
+    top: 20%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff;
+}
+
+.header-text h2 {
+    font-size: 40px;
+}
+
+.header-text h2 span {
+    background-color: #4CAF50;
+	padding: 10px;
+    color:#FFFFFF;
+}
+
+.header-text h3 span {
+	background-color: #1DA161;
+	padding: 15px;
+}
+
+.btn-min-block {
+    min-width: 170px;
+    line-height: 26px;
+
+}
+
+.btn-theme {
+    border-radius: 12px;
+    color: #4CAF50;
+    background-color: transparent;
+    border: 3px solid #4CAF50;
+    margin-right: 15px;
+    font-size: 15px;
+
+}
+
+.btn-theme:hover {
+    color: #fff;
+    background-color: #4CAF50;
+    border-color: #fff; font-size: 20px;
+
+}
+}span{
+    color: :#159F5C;
+}
+
+.carousel{margin-top: 55px;
+    
+    }
+    /**  Page -- staff **/
+
+#staff {
+  background-color: #E4D29D;
+  background-image: linear-gradient(to bottom, #5BBC2E, #FFFFFF);
+}
+#footer-wrapper{
+    background-color: #75C74F;
+}
+
+ /**  blockquote**/
+blockquote{
+    border-left:none
+}
+
+.quote-badge{
+    background-color: rgba(0, 0, 0, 0.2);   
+}
+
+.quote-box{
+    
+    overflow: hidden;
+    margin-top: -50px;
+    padding-top: -100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 17px;
+    background-color: #5BBC2E;
+    margin-top: 25px;
+    color:white;
+    box-shadow: 2px 2px 2px 2px #4CAF50;
+    margin-right: 10px;
+    
+}
+#testimonials{
+    margin-left: -80px;
+}
+
+.quotation-mark{
+    
+    margin-top: -10px;
+    font-weight: bold;
+    font-size:100px;
+    color:white;
+    font-family: "Times New Roman", Georgia, Serif;
+    
+}
+
+.quote-text{
+    
+    font-size: 19px;
+    margin-top: -65px;
+}
+p{
+    color: #FFFFFF;
+    font-size: 17px;
+}
+
+
+.btn-lrn {
+    color: #FCFEFB;
+    
+    border: 3px solid #4CAF50;
+    margin-right: 15px;
+    font-size: 15px;
+    background-color: #4CAF50;border-radius: 12px;
+
+}
+
+.btn-lrn:hover {
+    font-size: 20px;
+}
+#footer{
+    padding-bottom: 20px;
+}
+#copyright{
+    background-color: #B0DF9B;
+    padding-top: 10px;
+}
+#ourstaff{
+     text-align: center;
+}
+
+
+header .navbar-default .navbar-nav li a {
+  color: white;
+  padding: 5px 10px;font-size: 20px;  font-weight: 200;
+}
+
+header .navbar-default .navbar-nav li a:hover {
+  color: #5BBC2E;
+  background: white;
+}
+
+header .navbar-default .navbar-nav .active a {
+  font-weight: 700;
+  color: white;
+  background: transparent;
+  border-bottom: 4px solid white;
+  text-shadow: none;
+}
+
+header .navbar-default .navbar-nav .active a:hover {
+  color: #0C4F7F;
+  background: transparent;
+  text-shadow: none;
+}
+ h2#qt{
+    text-align: center;color: white;font-weight: 300%;
+}
+
+#fquotes{
+
+  background-color: #1DA161;
+  background-image: linear-gradient(to bottom, #5BBC2E, #E6E6E6);
+  border-top: 20px solid rgba(238, 200, 86, .5);
+  margin-top: -18px;
+}
