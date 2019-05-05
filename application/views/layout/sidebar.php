@@ -13,7 +13,7 @@
                       </div>
 
                     </li>
-                <li style=" border-bottom: 4px solid #1BA261;"  ><a style="color: #18A15E;" href="<?php echo site_url('home/all_thought') ?>">All Thoughts</a></li>
+                <li style=" border-bottom: 4px solid #1BA261;"  ><a style="color: #18A15E;" href="<?php echo base_url(); ?>/home/all_thought">All Thoughts</a></li>
                 <li  style=" border-bottom: 4px solid #1BA261;"><a style="color: #18A15E;" href="<?php echo site_url('thought/index') ?>">Add New Thought</a></li>
                 <li  style=" border-bottom: 4px solid #1BA261;"><a style="color: #18A15E;" href="<?php echo site_url('thought/my_thought') ?>">MyThoughts</a></li>
             </ul>

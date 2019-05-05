@@ -36,10 +36,16 @@ $config['base_url'] = preg_replace('@/+$@', '', dirname($_SERVER['SCRIPT_NAME'])
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
+$config['uri_protocol'] = "AUTO";
+
+//  Replace it as
+
+$config['uri_protocol'] = "REQUEST_URI" ;
 
 /*
-|--------------------------------------------------------------------------
+|-------------------------------------
+-------------------------------------
 | URI PROTOCOL
 |--------------------------------------------------------------------------
 |
@@ -53,7 +59,7 @@ $config['index_page'] = 'index.php';
 |
 | WARNING: If you set this to 'PATH_INFO', URIs will always be URL-decoded!
 */
-$config['uri_protocol']	= 'REQUEST_URI';
+
 
 /*
 |--------------------------------------------------------------------------

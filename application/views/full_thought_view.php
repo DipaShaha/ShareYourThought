@@ -82,13 +82,16 @@
                   </button>
                   
                   <div>  <br>
+                  <?php $id= $this->session->userdata('user_id');if($thought['thought_id'] ==$id )
+                  {?>
                   <a href="<?php echo base_url() ?>/thought/edit_view/<?php echo $thought['thought_id']; ?>" type="button" value="Edit" class="btn btn-warning btn-xsm">Edit</a>&nbsp;
                  <a href="<?php echo base_url() ?>/thought/delete/<?php echo $thought['thought_id']; ?>" type="button" value="Edit" class="btn btn-danger btn-sm">Delete</a></div>
-             
+               <?php }?>
             </div><!--blockquote-->
 
           </div><!--col-md-offset-2 col-md-8-->
           <div class="col-md-2">
+
           </div><!--col-md-2-->
       </div><!--row-->
       <br>
